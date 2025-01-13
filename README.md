@@ -15,27 +15,27 @@ chatbot/ ├── .gitignore # Specifies files and directories excluded from Gi
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Ayusharma8191/CHATBOT1.git
-2. Navigate to the Project Directory
+### 2. Navigate to the Project Directory
 cd CHATBOT1
-3. Set Up the Virtual Environment
+### 3. Set Up the Virtual Environment
 On Windows:
 python -m venv myenv
 myenv\Scripts\activate
 On macOS/Linux:
 python3 -m venv myenv
 source myenv/bin/activate
-4. Install Dependencies
+### 4. Install Dependencies
 Install the required Python libraries:
 
 pip install -r requirements.txt
-5. Set Up the .env File
+### 5. Set Up the .env File
 Create a .env file in the project root directory and add the following:
 
 OPENAI_API_KEY=your_openai_api_key_here
 DEBUG=True
 Important: Make sure to replace your_openai_api_key_here with your actual OpenAI API key. This key is necessary for the chatbot to function properly.
 
-6. Run the Chatbot
+### 6. Run the Chatbot
 Execute the main script:
 
 python main
